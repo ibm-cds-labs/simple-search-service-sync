@@ -50,7 +50,7 @@ Simple example, describing a schema comprising of three fields, two of which wil
 
 Whenever the SSS-sync service is notified that a document was inserted or updated a mapping function is invoked. Customize `lib/map.js` to define the mapping between document properties and the fields in the SSS schema.
 
-The following example maps the `name`, `parirings` and `description` properties from the source document to search index fields. 
+The following example maps the `name`, `pairings` and `description` properties from the source document to search index fields. 
 
 ```
 	...
