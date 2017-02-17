@@ -7,7 +7,7 @@ Use this service to continuously synchronize the index of a [Simple-Search-Servi
 ### Download 
 
 ```
-$ git clone https://github.com/ptitzler/simple-search-service-sync.git
+$ git clone https://github.com/ibm-cds-labs/simple-search-service-sync.git
 $ cd simple-search-service-sync
 ```
 
