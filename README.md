@@ -17,7 +17,7 @@ $ cd simple-search-service-sync
 
 A schema defines the fields, their data types and whether they are indexed for faceted search. Customize `config/schema.json` to describe the data set you would like to make searchable.
 
-Simple example, describing a schema comprising of three fields, two of which will be indexed for search:
+Simple example, describing a schema consisting of three fields, two of which will be indexed for search:
 
 ```
 { "fields": [
@@ -95,7 +95,7 @@ Gather the following information:
 
 * The `SSS_LOCKDOWN_USERNAME` and `SSS_LOCKDOWN_PASSWORD` credentials if `LOCKDOWN` mode is enabled in your Simple-Search-Service instance.
 
-> In the instructions below replace `<COUCH_DB_URL_VALUE>` with the database url `<SSS_URL_VALUE>` with the URL of your Simple-Search-Service instance 
+> In the instructions below replace `<COUCH_DB_URL_VALUE>` with the database url and `<SSS_URL_VALUE>` with the URL of your Simple-Search-Service instance 
 
 
 #### Running on Bluemix
