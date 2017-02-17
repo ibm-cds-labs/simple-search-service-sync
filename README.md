@@ -120,7 +120,12 @@ Start the application:
  $ cf start
 ```
 
-The application initializes the Simple-Search-Service index and synchronizes it whenever a change in the source database is reported. 
+During startup the application initializes the Simple-Search-Service index and synchronizes it whenever a change in the source database is reported. Out of the box only syncronization failues are logged. If environment variable `DEBUG` is defined a status message is also displayed every time a syncronization request was successfully processed.
+
+```
+$ cf set-env simple-search-service-sync DEBUG sss-sync
+$ cf restart
+```
 
 #### Running locally
 
