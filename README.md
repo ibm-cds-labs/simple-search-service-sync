@@ -43,7 +43,7 @@ Simple example, describing a schema consisting of three fields, two of which wil
 }
 ```
 
-> Supported data types: `string` (_"val"_), `number` (_val_), `arrayofstrings` (_"val1,val2,val3"_) and `boolean` (_true/false_) 
+> Supported data types: `string` (_"val"_), `number` (_1_), `arrayofstrings` (_"val1,val2,val3"_) and `boolean` (_true/false_) 
 
 
 #### Define document property mappings
