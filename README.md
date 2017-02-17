@@ -4,6 +4,8 @@
 
 Use this service to continuously synchronize the index of a [Simple-Search-Service](https://github.com/ibm-cds-labs/simple-search-service/) instance with the content of a couchDB/Cloudant database.
 
+![Diagram of Simple Search Service Sync architecture](https://cdn-images-1.medium.com/max/800/1*_PefKWpAlmiYUSKcCDxpww.png)
+
 ### Download 
 
 ```
