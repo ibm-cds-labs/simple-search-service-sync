@@ -87,13 +87,9 @@ The mapping output is sent to the Simple-Search-Service, which will update its i
 Gather the following information:
 
 * URL of the local or remote source database, e.g.
-	```
- https://myuser:mypassword@mycouchdb-host/my-database
-	```
+	``` https://myuser:mypassword@mycouchdb-host/my-database```
 * Simple-Search-Service instance URL, e.g. 
-	```
- https://my-simple-search-service.mybluemix.net
- 	```
+	``` https://my-simple-search-service.mybluemix.net```
 
 * The `SSS_LOCKDOWN_USERNAME` and `SSS_LOCKDOWN_PASSWORD` credentials if `LOCKDOWN` mode is enabled in your Simple-Search-Service instance.
 
